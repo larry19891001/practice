@@ -1,0 +1,23 @@
+import java.io.IOException;
+public class caiDanTest {
+public static void main(String[] args) throws IOException
+{
+	char n=0;
+	do{
+		System.out.println("1:选择1");	
+		n=(char)System.in.read();
+		switch(n){
+		case'1':
+			System.out.println("选择1");
+			break;
+		case'2':
+		    System.out.println("选择2");
+		    break;
+		    default:
+		    	System.out.println("输入非法");
+		    	break;
+		}
+
+	}while(n<'1'|n>'5');
+	}
+}
