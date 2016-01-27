@@ -1,0 +1,17 @@
+
+public class staticTest {
+private static int staticInt = 2;
+private int random = 2;
+public staticTest()
+{
+	staticInt++;
+	random++;
+	System.out.println("staticInt = "+staticInt+" random = "+random);
+	
+}
+public static void main(String[] args)
+{
+	staticTest test= new staticTest();
+	staticTest test2= new staticTest();
+	}
+}
