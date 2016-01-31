@@ -8,7 +8,7 @@ class Tiger extends Animal
 		System.out.println("the tiger run");
 	}
 	void breath(){
-		System.out.println("老虎是用肺呼吸的");
+		System.out.println("老虎是用肺呼吸的")
 	}
 
 }
