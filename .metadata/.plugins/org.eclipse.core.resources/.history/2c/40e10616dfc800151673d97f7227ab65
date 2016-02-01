@@ -9,7 +9,7 @@ public class dongtai
 		animal[2]=new fish();
 		animal[0].breath();
 		animal[1].breath();
-		animal[2].breath();
+		animal[0].breath();
 		
 	}
 
