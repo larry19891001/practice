@@ -1,9 +1,0 @@
-
-public class humanDemo 
-{
-public static void main(String args[])
-{
-	Human zhangsan=new Human("张三","男","25","中国北京");
-	Human lisi=new Human("李四","男","20","中国上海");
-	}
-}
